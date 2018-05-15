@@ -17,4 +17,4 @@ correct_count = 0
 for i in range(0,len(test_winners)):
 	if test_winners.iloc[i,0] == predict_winners[i]:
 		correct_count += 1
-print (correct_count*1.0)/(len(test_winners))
+print (correct_count*1.0)/(len(test_winners))*100
